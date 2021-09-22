@@ -1,0 +1,7 @@
+[Unit]
+Description="Valheim activity monitor"
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/valheim-activity.sh
+User=root
