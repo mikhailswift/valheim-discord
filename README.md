@@ -22,6 +22,7 @@ The Cloud Function relies on a handful of environment variables to be set.
 | `GCP_PROJECT`         | The project your valheim compute instances reside in |
 | `GCP_ZONE`            | The zone your valheim compute instance resides in |
 | `GCP_INSTANCE_NAME`   | The name of your compute instance that is running the valheim server |
+| `STATUS_SERVER_PORT`  | The port of the valheim status server that is running on the compute instance |
 
 ## Utilities & scripts
 The `scripts` directory contains a few helpful utilities.
